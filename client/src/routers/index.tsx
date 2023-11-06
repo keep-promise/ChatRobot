@@ -1,6 +1,6 @@
-import React from 'react';
+import { lazy } from 'react';
 
-const ChatPage = React.lazy(() => import('@/pages/chat'))
+const ChatPage = lazy(() => import('@/pages/chat'))
 
 export const routers = [
   {
