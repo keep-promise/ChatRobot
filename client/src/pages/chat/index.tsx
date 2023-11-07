@@ -1,11 +1,4 @@
-import {
-  CommentOutlined,
-  DeleteOutlined,
-  GitlabFilled,
-  RedditCircleFilled,
-  RedditSquareFilled
-} from '@ant-design/icons'
-import { Button, Modal, Popconfirm, Space, Tabs, Select, message, Badge } from 'antd'
+import { Button, Modal, Popconfirm, Space, Tabs, Select, message } from 'antd'
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 
 import styles from './index.module.less'
