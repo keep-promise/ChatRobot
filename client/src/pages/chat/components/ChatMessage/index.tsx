@@ -1,7 +1,7 @@
 import React, { useEffect, useLayoutEffect, useMemo, useRef } from 'react'
 import { copyToClipboard, joinTrim } from '@/utils'
 import styles from './index.module.less'
-import OpenAiLogo from '@/components/OpenAiLogo'
+import OpenAiLogo from '@/components/AILogo'
 import { Space, Popconfirm, message, Dropdown } from 'antd'
 
 import MarkdownIt from 'markdown-it'

@@ -207,7 +207,7 @@ const admin = {
       icon: <SettingFilled />
     },
     {
-      path: 'https://github.com/79E/ChatGpt-Web',
+      path: 'https://github.com/keep_promise/ChatRobot',
       name: 'Github',
       icon: <GithubFilled />
     }
