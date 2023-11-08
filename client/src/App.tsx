@@ -12,7 +12,7 @@ function App() {
   //   return routerList
   // }, [user_info])
 
-  const routesElement = useRoutes([...routers])
+  const routesElement = useRoutes(routers);
   return routesElement;
 }
 

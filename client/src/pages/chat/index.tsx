@@ -1,7 +1,5 @@
-import { Button, Modal, Popconfirm, Space, Tabs, Select, message } from 'antd'
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
-
-import styles from './index.module.less'
+import { Button, Modal, Popconfirm, Space, Tabs, Select, message } from 'antd'
 import { chatStore, configStore, userStore } from '@/store'
 import { chatAsync, pluginAsync } from '@/store/async'
 import RoleNetwork from './components/RoleNetwork'
@@ -19,6 +17,8 @@ import useMobile from '@/hooks/useMobile'
 import PersonaModal from '@/components/PersonaModal'
 import PluginModal from '@/components/pluginModal'
 import MessageItem from './components/MessageItem'
+import styles from './index.module.less';
+
 
 function ChatPage() {
   const scrollRef = useRef<HTMLDivElement>(null)

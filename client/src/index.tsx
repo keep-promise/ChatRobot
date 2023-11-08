@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 // import AuthRouter from './routers/auth_router'
 // import Global from './components/Global'
 import AILogo from './components/AILogo';
+import App from './App';
 
 import '@/styles/global.less'
 import '@/styles/markdown.less'
