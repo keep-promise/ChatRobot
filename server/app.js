@@ -1,6 +1,8 @@
 const express = require('express');
 const dotenv = require('dotenv');
+const cors = require('cors');
 
+const initDB = require('./init/initDB');
 const api = require('./routes/api');
 
 
@@ -16,5 +18,10 @@ app.listen(PORT, () => {
   console.error('server error:', err);
 });
 
+initDB();
+
+// 跨域设置
+app.use(cors({origin: 'http://localhost:5173'}));
+
 // 路由
-app.use('/api', api)
+app.use('/api', api);
