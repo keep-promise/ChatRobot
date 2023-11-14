@@ -1,8 +1,6 @@
 const sequlize = require('../db/sequelize');
 const dbConnection = require('../db/connection');
 
-const User = require('../models/user');
-
 const initRelition = () => {
 
 }
