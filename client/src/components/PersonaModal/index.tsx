@@ -102,7 +102,7 @@ function PersonaModal(props: Props) {
                   key={item.id}
                   {...item}
                   userInfo={item.user}
-				  message={`包含 ${JSON.parse(item.context).length} 条预设对话`}
+				          message={`包含 ${JSON.parse(item.context).length} 条预设对话`}
                   buttons={[
                     <p
                       key="duihua"
