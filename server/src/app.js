@@ -3,7 +3,7 @@ const path = require('path');
 const dotenv = require('dotenv');
 const cors = require('cors');
 
-dotenv.config({ path: path.resolve(__dirname, '.env') });
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
 
 
 const initDB = require('./init/initDB');
